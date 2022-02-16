@@ -1,0 +1,46 @@
+{
+  "name": "tisax-sample",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Dies ist ein Beispielprojekt für die **Einhaltung einer TISAX-konformen Entwicklung**. Es handelt sich sowohl um ein kompilierbares Projekt, als auch um ein Dokument, dass die zu verwendenden Techniken und Richtlinien demonstriert.",
+  "main": "./dist/index.js  --experimental-json-modules",
+  "bin": {
+    "mac-iot-tool": "dist/index.js"
+  },  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node -- index.ts",
+    "ts-node": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbsKa/tisax-sample.git"
+  },
+  "keywords": [
+    "tisax",
+    "ibs"
+  ],
+  "author": "BF, IBS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbsKa/tisax-sample/issues"
+  },
+  "homepage": "https://github.com/IbsKa/tisax-sample#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "figlet": "^1.5.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0",
+    "ora": "^6.0.1",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.4",
+    "@types/inquirer": "^8.2.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
