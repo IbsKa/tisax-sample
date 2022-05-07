@@ -1,0 +1,15 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-readmehelper-prod-235550-authRole",
+      "UnauthRoleArn": "arn:aws:iam::871167032880:role/amplify-readmehelper-prod-235550-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::871167032880:role/amplify-readmehelper-prod-235550-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-readmehelper-prod-235550-deployment",
+      "UnauthRoleName": "amplify-readmehelper-prod-235550-unauthRole",
+      "StackName": "amplify-readmehelper-prod-235550",
+      "StackId": "arn:aws:cloudformation:eu-central-1:871167032880:stack/amplify-readmehelper-prod-235550/75fc7e70-ce50-11ec-bdc0-02898c287e90",
+      "AmplifyAppId": "d1d5hzpjt6dn99"
+    }
+  }
+}

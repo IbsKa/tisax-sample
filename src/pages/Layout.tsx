@@ -103,8 +103,8 @@ export default function HeaderResponsive({ links }: HeaderResponsiveProps) {
   return (
     <Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
       <Container className={classes.header}>
-        <img src="https://www.ibs-ka.de/fileadmin/masterTemplate/Resources/Public/Images/site-ibs/logos/logo.svg" alt="MyAppCafé Logo" style={{ height: '40px' }} />
-        <Title order={2}>Softwareentwicklung Checkliste</Title>
+        <img src="https://www.ibs-ka.de/fileadmin/masterTemplate/Resources/Public/Images/site-ibs/logos/logo.svg" alt="IBS Logo" style={{ height: '40px' }} />
+        <Title order={2}>IBS Softwareentwicklung</Title>
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>

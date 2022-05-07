@@ -5,6 +5,7 @@ import { Center, ColorScheme, ColorSchemeProvider, Global, MantineProvider, Norm
 import { NotificationsProvider } from '@mantine/notifications';
 import HeaderResponsive from "./pages/Layout"
 import Home from './pages/Home';
+import PortalPage from './pages/PortalPage';
 
 function App() {
 
@@ -40,11 +41,15 @@ function App() {
         />
         <NormalizeCSS />
         <NotificationsProvider autoClose={10000}>
-          <HeaderResponsive links={[{ label: 'Home', link: '/' }]} />
+          <HeaderResponsive links={[
+            { label: 'Readme', link: '/' },
+            { label: 'Dokumente', link: '/doc' },
+            { label: 'Werkzeuge', link: '/tools' },
+          ]} />
           <Center>
             <Home />
           </Center>
-
+          <PortalPage />
         </NotificationsProvider>
       </MantineProvider>
     </ColorSchemeProvider>
