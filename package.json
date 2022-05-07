@@ -6,7 +6,8 @@
   "main": "./dist/index.js  --experimental-json-modules",
   "bin": {
     "mac-iot-tool": "dist/index.js"
-  },  "scripts": {
+  },
+  "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
