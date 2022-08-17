@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"Amplify\",\"createdWith\":\"7.6.15\",\"stackType\":\"hosting-S3AndCloudFront\",\"metadata\":{}}",
+  "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"Amplify\",\"createdWith\":\"9.2.1\",\"stackType\":\"hosting-S3AndCloudFront\",\"metadata\":{}}",
   "Parameters": {
     "env": {
       "Type": "String"
@@ -131,7 +131,7 @@
               "DomainName": {
                 "Fn::GetAtt": [
                   "S3Bucket",
-                  "DomainName"
+                  "RegionalDomainName"
                 ]
               },
               "Id": "hostingS3Bucket",
